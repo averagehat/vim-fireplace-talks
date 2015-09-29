@@ -44,6 +44,14 @@ Client-side functionality:
  - [ ] Speak auto-complete
  - [ ] etc.?
 
+It is simple enough to replace lein's repl with clojure.main/repl; see Joy of Clojure exmample p. 309.
+The custom repl could itself evaluate and then speak the output.
+
+speaking autocomplete:
+```
+:help complete
+:help ins-completion-menu
+```
 ## License
 
 Copyright © 2015 Michael Panciera
